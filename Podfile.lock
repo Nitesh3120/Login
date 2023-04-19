@@ -1,0 +1,22 @@
+PODS:
+  - FAPanels (2.0.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+
+DEPENDENCIES:
+  - FAPanels
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  trunk:
+    - FAPanels
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  FAPanels: 050291ef601a1dc00fad888f83e74284cb86dd52
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+
+PODFILE CHECKSUM: 5aca5306c3edbb4ad6262bb068e1a79121fc7385
+
+COCOAPODS: 1.11.2

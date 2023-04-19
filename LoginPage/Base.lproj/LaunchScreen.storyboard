@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group38" translatesAutoresizingMaskIntoConstraints="NO" id="lBU-5J-gLg">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            </imageView>
+                            <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0Y-MQ-rpB">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoScreen" translatesAutoresizingMaskIntoConstraints="NO" id="twv-94-beA">
+                                        <rect key="frame" x="116.66666666666669" y="299.66666666666669" width="160" height="160"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="160" id="U8h-3D-3Wh"/>
+                                            <constraint firstAttribute="width" constant="160" id="rUn-qr-jWV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstItem="twv-94-beA" firstAttribute="centerX" secondItem="R0Y-MQ-rpB" secondAttribute="centerX" id="Rse-sK-hEw"/>
+                                    <constraint firstItem="twv-94-beA" firstAttribute="centerY" secondItem="R0Y-MQ-rpB" secondAttribute="centerY" id="hv3-IF-Lnh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lBU-5J-gLg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8VG-rO-ijm"/>
+                            <constraint firstItem="lBU-5J-gLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HCk-CM-9N9"/>
+                            <constraint firstItem="R0Y-MQ-rpB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KQC-8x-x1u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R0Y-MQ-rpB" secondAttribute="bottom" id="ThV-YW-QqO"/>
+                            <constraint firstItem="R0Y-MQ-rpB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dJW-Hh-FZ8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R0Y-MQ-rpB" secondAttribute="trailing" id="e9M-oc-Tc2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lBU-5J-gLg" secondAttribute="bottom" id="gBM-m0-5V3"/>
+                            <constraint firstItem="lBU-5J-gLg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qkR-Vm-pqQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="group38" width="248" height="559.33331298828125"/>
+        <image name="logoScreen" width="105.33333587646484" height="105.33333587646484"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
